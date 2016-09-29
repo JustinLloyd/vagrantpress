@@ -1,4 +1,10 @@
-# VagrantPress
+# Justin's Personal Fork of VagrantPress
+
+This modification removes the hostsupdater requirement because it is too brittle to be useful.
+A quick hack to add the zip utility during installation
+Increased VM RAM to 8GB because a lot of my work requires gobs of memory whilst developing and testing.
+
+# Original README
 
 *VagrantPress* is a packaged development environment for developing WordPress themes and modules.  
 I initially created this project to aid in developing child modules for a WordPress blog.
