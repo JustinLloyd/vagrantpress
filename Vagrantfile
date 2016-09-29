@@ -11,8 +11,8 @@ Vagrant.configure("2") do |config|
   # setup virtual hostname and provision local IP
   config.vm.hostname = "vagrantpress.dev"
   config.vm.network :private_network, :ip => "192.168.50.4"
-  config.hostsupdater.aliases = %w{www.vagrantpress.dev}
-  config.hostsupdater.remove_on_suspend = true
+  #config.hostsupdater.aliases = %w{www.vagrantpress.dev}
+  #config.hostsupdater.remove_on_suspend = true
 
    config.vm.provision :shell do |shell|
       shell.inline = "
