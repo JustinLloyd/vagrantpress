@@ -31,7 +31,7 @@ Vagrant.configure("2") do |config|
   # Fix for slow external network connections
   config.vm.provider :virtualbox do |vb|
     vb.memory = 8192
-    vb.cpus = 4
+    vb.cpus = 8
     vb.customize ['modifyvm', :id, '--natdnshostresolver1', 'on']
     vb.customize ['modifyvm', :id, '--natdnsproxy1', 'on']
   end

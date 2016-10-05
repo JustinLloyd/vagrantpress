@@ -7,5 +7,6 @@ echo "PATH=$PATH:/usr/local/bin/vendor/bin/" >> /home/vagrant/.bashrc
 sudo apt-add-repository -y ppa:brightbox/ruby-ng
 sudo apt-get update
 sudo apt-get -y install zip libmysqlclient-dev ruby2.3 ruby2.3-dev
-sudo gem install httparty mysql2 json activesupport
+sudo gem install httparty mysql2 json activesupport addressable progress_bar sucker_punch tty-cursor activesupport
+
 
